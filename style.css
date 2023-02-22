@@ -173,7 +173,7 @@ ul {
     text-align: center;
     font-size: large;
     background-color: lightgray;
-    scale: 50%;
+    /*scale: 50%;*/
     box-shadow: inset -2px -2px 2px rgba(0, 0, 0, .8), 
     inset 2px 0px 2px rgba(255, 255, 255, .8);
     animation-name: pop-up;
