@@ -1,0 +1,341 @@
+html {}
+
+@keyframes pop-up {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+}
+
+#wrapper {
+    background-image: url('https://samalott.github.io/section-one-fp/lined-paper.jpg');
+    position: absolute; 
+    background-size: contain;
+    height: 1000px;
+    width: 1000px;
+    overflow: visible;
+    color:rgb(0, 0, 0);
+}
+
+body {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 75);
+}
+
+h1 {
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 60pt;
+    font-weight: normal;
+}
+
+h2 {
+    position: absolute;
+    margin-top: 188px;
+    margin-left: 100px;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    position: absolute;
+    margin-top: 253px;
+    margin-left: 105px;
+    font-size: 30pt;
+    font-weight: normal;
+    line-height: 23pt;
+    list-style-type: circle;
+}
+
+#button {
+    position: absolute;
+    height: 42px;
+    width: 160px;
+    top: 65%;
+    left: 30%;
+    padding-top: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, .8), 
+    inset 2px 2px 2px rgba(255, 255, 255, 1);
+}
+
+#bolin {
+    position: absolute;
+    width: 500px;
+    left: -20px;
+    top: -205px;
+    z-index: 100;
+    transform: scaleX(-1);
+    /*background-color: red;*/
+    clip-path: polygon(25% 30%, 75% 30%, 75% 60%, 65% 60%, 65% 50%, 45% 50%, 40% 60%, 8% 60%, 8% 50%);
+}
+
+.outline {
+    position: absolute;
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    background-color: transparent;
+    height: 28px;
+    width: 148px;
+    top: 67%;
+    left: 31%;
+}
+
+
+
+#distraction1 {
+    visibility: hidden;
+    position: fixed;
+    left: 250px;
+    top: 450px;
+}
+
+#distraction1-top {
+    position: absolute;
+    height: 40px;
+    width: 400px;
+    padding-top: 12px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: large;
+    background-color: blue;
+    box-shadow: inset -2px 0px 2px rgba(0, 0, 0, .8), 
+    inset 3px 4px 3px rgba(255, 255, 255, 1);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 3s;
+    z-index: 10;
+}
+
+#distraction1-body {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: large;
+    background-color: lightgray;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, .8), 
+    inset 2px 0px 2px rgba(255, 255, 255, .8);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 3s;
+    z-index: 10;
+}
+
+#distraction2 {
+    position: absolute;
+    left: 25px;
+    top: 125px;
+}
+
+#distraction2-top {
+    visibility: hidden;
+    position: fixed;
+    height: 40px;
+    width: 450px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: large;
+    background-color: blue;
+    box-shadow: inset -2px 0px 2px rgba(0, 0, 0, .8), 
+    inset 3px 4px 3px rgba(255, 255, 255, 1);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 3.5s;
+    z-index: 20;
+}
+
+#distraction2-body {
+    visibility: hidden;
+    position: fixed;
+    height: 200px;
+    width: 450px;
+    margin-top: 40px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: large;
+    background-color: lightgray;
+    scale: 50%;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, .8), 
+    inset 2px 0px 2px rgba(255, 255, 255, .8);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 3.5s;
+    z-index: 20;
+}
+
+#distraction3 {
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+
+#distraction3-top {
+    visibility: hidden;
+    position: fixed;
+    height: 40px;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: large;
+    background-color: blue;
+    box-shadow: inset -2px 0px 2px rgba(0, 0, 0, .8), 
+    inset 3px 4px 3px rgba(255, 255, 255, 1);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 5s;
+    z-index: 30;
+}
+
+#distraction3-body{
+    visibility: hidden;
+    position: fixed;
+    height: 200px;
+    width: 400px;
+    margin-top: 40px;    
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-color: lightgray;
+    border-radius: 0%;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, .8), 
+    inset 2px 0px 2px rgba(255, 255, 255, .8);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 5s;
+    z-index: 30;
+}
+
+#close {
+    position: absolute;
+    height: 16px;
+    width: 30px;
+    top: 2px;
+    right: 6px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: lightgray;
+    box-shadow: inset -2px -2px 1px rgba(0, 0, 0, .8), 
+    inset 2px 2px 1px rgba(255, 255, 255, .8);
+}
+
+#red-sign {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 20px;
+    top: 70px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 3s;
+    z-index: 12;
+}
+
+
+
+/*Pages*/
+
+#pagea {
+    text-align: center;
+    margin-top: 293px;
+    font-size: 60px;
+}
+
+#pageb {
+    visibility: hidden;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 15px;
+    font-weight: lighter;
+    animation-name: shit;
+    animation-duration: 120s;
+    animation-delay: 2s;
+    z-index: 30;
+}
+
+@keyframes shit {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+}
+
+#sad-bo {
+    position: absolute;
+    left: -100px;
+    top: -300px;
+    z-index: 101;
+    transform: scale(50%);
+}
+
+#sad-bo:hover {
+    position: absolute;
+    content: url();
+    cursor: pointer;    
+    left: -100px;
+    top: -300px;
+    z-index: 101;
+    transform: scale(50%);
+}
+
+#happy-bo {
+    position: absolute;
+    left: -100px;
+    top: -300px;
+    z-index: 100;
+    transform: scale(50%);
+}
+
+/*p {
+    font-size: calc(.8 * 3vw);
+    line-height: calc(1.2 * 3vw);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 25px;
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #00A79D;
+    color: white;
+    border-top: 5pt;
+    border-color: white;
+    border-style: solid;
+}*/
