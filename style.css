@@ -78,7 +78,7 @@ ul {
     left: -20px;
     top: -205px;
     z-index: 100;
-    /*transform: scaleX(-1);*/
+    transform: scaleX(-1);
     /*background-color: red;*/
     clip-path: polygon(25% 30%, 75% 30%, 75% 60%, 65% 60%, 65% 50%, 45% 50%, 40% 60%, 8% 60%, 8% 50%);
 }
