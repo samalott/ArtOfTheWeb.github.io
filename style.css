@@ -7,10 +7,15 @@ html {}
 
 #wrapper {
     background-image: url('https://samalott.github.io/section-one-fp/lined-paper.jpg');
-    position: absolute; 
+    /*position: absolute; 
     background-size: contain;
     height: 1000px;
-    width: 1000px;
+    width: 1000px;*/
+    position: absolute; 
+    background-size: 100% auto;
+    background-repeat: repeat;
+    height: 2000px;
+    width: 3000px;
     overflow: visible;
     color:rgb(0, 0, 0);
 }
