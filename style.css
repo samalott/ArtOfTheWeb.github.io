@@ -271,7 +271,81 @@ ul {
     z-index: 12;
 }
 
+#vacation {
+    position: absolute;
+    bottom: 150px;
+    right: 260px;
+}
 
+#vacation-top {
+    visibility: hidden;
+    position: fixed;
+    height: 40px;
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: large;
+    background-color: blue;
+    box-shadow: inset -2px 0px 2px rgba(0, 0, 0, .8), 
+    inset 3px 4px 3px rgba(255, 255, 255, 1);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 5s;
+    z-index: 30;
+}
+
+#vacation-body{
+    visibility: hidden;
+    position: fixed;
+    height: 100px;
+    width: 250px;
+    margin-top: 40px;    
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bolder;
+    background-color: lightgray;
+    border-radius: 0%;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, .8), 
+    inset 2px 0px 2px rgba(255, 255, 255, .8);
+    animation-name: pop-up;
+    animation-duration: 120s;
+    animation-delay: 5s;
+    z-index: 30;
+}
+
+#vacation_button {
+    position: absolute;
+    height: 42px;
+    width: 80px;
+    top: 52%;
+    left: 32%;
+    padding-top: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, .8), 
+    inset 2px 2px 2px rgba(255, 255, 255, 1);
+}
+
+.vacation_outline {
+    position: absolute;
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    background-color: transparent;
+    height: 28px;
+    width: 65px;
+    top: 58%;
+    left: 34%;
+}
 
 /*Pages*/
 
