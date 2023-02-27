@@ -208,7 +208,7 @@ ul {
     inset 3px 4px 3px rgba(255, 255, 255, 1);
     animation-name: pop-up;
     animation-duration: 120s;
-    animation-delay: 5s;
+    animation-delay: 4s;
     z-index: 30;
 }
 
@@ -231,7 +231,7 @@ ul {
     inset 2px 0px 2px rgba(255, 255, 255, .8);
     animation-name: pop-up;
     animation-duration: 120s;
-    animation-delay: 5s;
+    animation-delay: 4s;
     z-index: 30;
 }
 
