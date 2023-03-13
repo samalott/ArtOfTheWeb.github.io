@@ -517,6 +517,10 @@ ul {
     box-shadow: 5px 5px 10px 5px #888888;
 }
 
+.bottom {
+    margin-bottom: 10px;
+}
+
 .sub1 {
     font-size: 2.8vw;
     font-style: italic;
