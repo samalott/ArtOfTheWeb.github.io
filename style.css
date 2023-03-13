@@ -560,8 +560,11 @@ table td:hover {
     background-color: white;
 }*/
 
-#egg-ring {
+.sprite {
     background-image: url("amazon.png");
+}
+
+#egg-ring {
     background-position-x: 0%;
     background-size: 300% auto;
     min-height: 160px;
@@ -572,7 +575,6 @@ table td:hover {
 }
 
 #dog-booties{
-    background-image: url("amazon.png");
     background-position-x: 50%;
     background-size: 300% auto;
     min-height: 160px;
@@ -583,7 +585,6 @@ table td:hover {
 }
 
 #toxic-waste {
-    background-image: url("amazon.png");
     background-position-x: 100%;
     background-size: 300% auto;
     min-height: 160px;
@@ -594,7 +595,6 @@ table td:hover {
 }
 
 #scalp-massager {
-    background-image: url("amazon.png");
     background-position-x: 0%;
     background-position-y: 49%;
     background-size: 300% auto;
@@ -606,7 +606,6 @@ table td:hover {
 }
 
 #popcorn-seasoning {
-    background-image: url("amazon.png");
     background-position-x: 50%;
     background-position-y: 49%;
     background-size: 300% auto;    
@@ -618,7 +617,6 @@ table td:hover {
 }
 
 #timer {
-    background-image: url("amazon.png");
     background-position-x: 100%;
     background-position-y: 49%;
     background-size: 300% auto;
@@ -630,7 +628,6 @@ table td:hover {
 }
 
 #hoverboard {
-    background-image: url("amazon.png");
     background-position-x: 0%;
     background-position-y: 98%;
     background-size: 300% auto;    
@@ -642,7 +639,6 @@ table td:hover {
 }
 
 #hair-catcher {
-    background-image: url("amazon.png");
     background-position-x: 50%;
     background-position-y: 98%;
     background-size: 300% auto;    
@@ -654,7 +650,6 @@ table td:hover {
 }
 
 #dog-raincoat {
-    background-image: url("amazon.png");
     background-position-x: 100%;
     background-position-y: 98%;
     background-size: 300% auto;
@@ -666,7 +661,6 @@ table td:hover {
 }
 
 /*#item1 {
-    background-image: url("amazon.png");
     background-position-x: 0%;
     background-position-y: 146%;
     background-size: 300% auto;    
@@ -674,7 +668,6 @@ table td:hover {
 }
   
 #item2 {
-    background-image: url("amazon.png");
     background-position-x: 50%;
     background-position-y: 146%;
     background-size: 300% auto;    
@@ -682,7 +675,6 @@ table td:hover {
 }
 
 #item3 {
-    background-image: url("amazon.png");
     background-position-x: 100%;
     background-position-y: 146%;
     background-size: 300% auto;
