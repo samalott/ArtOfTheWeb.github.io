@@ -519,7 +519,7 @@ ul {
 
 .bottom {
     position: relative;
-    bottom: 10;
+    bottom: 10px;
     min-width: 100px;
     margin-left: auto;
     margin-right: auto;
