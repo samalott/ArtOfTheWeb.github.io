@@ -474,13 +474,13 @@ ul {
     background-position-x: 100%;
     background-position-y: 0%;
     background-size:200%;
-    width: 65vw;
-    height: 70vw;
+    width: 75vh;
+    height: 85vh;
     position: relative;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    top:100px;
+    top:50px;
     z-index: 20;
 }
 
@@ -489,13 +489,13 @@ ul {
     background-position-x: 0%;
     background-position-y: 0%;
     background-size:200%;
-    width: 65vw;
-    height: 70vw;
+    width: 75vh;
+    height: 85vh;
     position: relative;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    top: 100px;
+    top: 50px;
     z-index: 20;
     cursor: grab;
 }
@@ -811,8 +811,6 @@ table td {
 
 
 /* ----------------------------------- 6. Messy Desk ------------------------------------ */
-
-
     
 .crop {
     background-image: url("messy-clean-desk.png");
@@ -822,6 +820,7 @@ table td {
 }
 
 #messy {
+    position:relative;
     background-position-x: 0%;
     background-position-y: 4%;
     display: block;
@@ -830,10 +829,10 @@ table td {
     color: white;
     font-size: 3vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 #clean {
+    position:relative;
     background-position-x: 0%;
     background-position-y: 95.5%;
     display: block;
@@ -853,22 +852,28 @@ table td {
     display:none;
 }
 
-#check-messy:checked ~ label #cover {
+#check-messy:checked ~ label #desk {
     display:block;
 }
 
 #container {
     position:absolute;
+    top:50px;
+    bottom:0;
+    left:0;
+    right:0;
     width: 100vw;
     height: 100vh;
-    top: 50px;
+    display:block;
 }
 
-#cover {
-    position:relative;
+#desk {
+    position:absolute;
+    top:50px;
+    bottom:0;
+    left:0;
+    right:0;
     width: 100vw;
     height: 100vh;
-    top: 42px;
-    background: transparent;
+    display:none;
 }
-
