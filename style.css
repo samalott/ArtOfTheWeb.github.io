@@ -37,16 +37,7 @@ h2.index {
     font-weight: bold;
 }
 
-h2.page5 {
-    display: block;
-    width: 84vw;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 34pt;
-    font-weight: bold;
-}
+
 
 a {
     color: black;
@@ -509,6 +500,19 @@ ul {
 
 /* ----------------------------------- 5. Amazon ------------------------------------- */
 
+
+h2.page5 {
+    display: block;
+    width: 92vw;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bold;
+    line-height: 5.5vw;
+}
+
 table.amazon {
     margin-top: 0px;
     margin-left: auto;
@@ -566,8 +570,7 @@ table td {
     background-position-x: 0%;
     background-position-y: 49%;
     background-size: 300% auto;
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
 
 #scalp-massager:hover {
@@ -579,8 +582,7 @@ table td {
     background-position-x: 50%;
     background-position-y: 49%;
     background-size: 300% auto;    
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
 
 #popcorn-seasoning:hover {
@@ -592,8 +594,7 @@ table td {
     background-position-x: 100%;
     background-position-y: 49%;
     background-size: 300% auto;
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
 
 #timer:hover {
@@ -605,8 +606,7 @@ table td {
     background-position-x: 0%;
     background-position-y: 98%;
     background-size: 300% auto;    
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
  
 #hoverboard:hover {
@@ -618,8 +618,7 @@ table td {
     background-position-x: 50%;
     background-position-y: 98%;
     background-size: 300% auto;    
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
 
 #hair-catcher:hover {
@@ -631,21 +630,19 @@ table td {
     background-position-x: 100%;
     background-position-y: 98%;
     background-size: 300% auto;
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
 
 #dog-raincoat:hover {
     cursor:pointer;
 }
 
-#item1 {
+/*#item1 {
     background-image: url("amazon.png");
     background-position-x: 0%;
     background-position-y: 146%;
     background-size: 300% auto;    
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
   
 #item2 {
@@ -653,8 +650,7 @@ table td {
     background-position-x: 50%;
     background-position-y: 146%;
     background-size: 300% auto;    
-    width:  inherit;
-    height: inherit;
+    min-height: 160px;
 }
 
 #item3 {
@@ -662,9 +658,8 @@ table td {
     background-position-x: 100%;
     background-position-y: 146%;
     background-size: 300% auto;
-    width:  inherit;
-    height: inherit;
-}
+    min-height: 160px;
+}*/
 
 
 
